@@ -97,7 +97,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/9127957b0437ed3a64332.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/a6e66115bf0f35a713e1f.jpg"
 
 DONATE_STRING = """Well, No Need To Donate."""
 
@@ -216,7 +216,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="➕ Add Nagato To Your Group",
+                                text=" Add hatsune  To Your Group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username,
                                 ),
@@ -224,28 +224,28 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🚑 Support",
-                                url=f"https://t.me/{SUPPORT_CHAT}",
+                                text=" Support",
+                                url=f"https://t.me/yuna_support",
                             ),
                             InlineKeyboardButton(
-                                text="🔔 Updates",
-                                url="https://t.me/foundingtitanupdates/",
+                                text=" Updates",
+                                url="https://t.me/hatsune_updates",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="📕 Getting Started",
+                                text=" Getting Started",
                                 url="https://t.me/foundingtitanupdates/4",
                             ),
                             InlineKeyboardButton(
-                                text="🤖 Source code",
-                                url="https://github.com/sasukeuchiha912/FoundingTitanRobot",
+                                text="quick setup",
+                                url="https://telegra.ph/Sparky-09-19",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="☠️ Anime Chat Group",
-                                url="https://t.me/otaku_regiment/",
+                                text=" Anime Chat Group",
+                                url="https://t.me/otakux_xarmy",
                             ),
                         ],
                     ],
